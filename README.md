@@ -32,7 +32,7 @@ pip install -r requirements.txt
 1. По аналогии с `task1/.env.example` создайте файл `task1/.env`, добавив туда свой ключ от API Groq (https://console.groq.com/keys)
 2. Запустите задачу, находясь в основной директории проекта:
 ```
-uvicorn task1.main:app --reload,
+uvicorn task1.main:app --reload
 ```
 
 Задача 2:
