@@ -9,13 +9,17 @@ git clone git@github.com:MaximBrezhnev/NexusHubTestTask.git
 ```
 git clone https://github.com/MaximBrezhnev/NexusHubTestTask.git
 ```
+2. Перейти в основную директорию проекта:
+```
+cd NexusHubTestTask
+```
 
-2. Создать и активировать виртуальное окружение virutalenv (приведен пример для Linux/MacOS):
+3. Создать и активировать виртуальное окружение virutalenv (приведен пример для Linux/MacOS):
 ```
 python3 -m venv .venv
 source .venv/bin/activate
 ```
-3. Установить зависимости из файла `requirements.txt` командой 
+4. Установить зависимости из файла `requirements.txt` командой 
 ```
 pip install -r requirements.txt
 ```
