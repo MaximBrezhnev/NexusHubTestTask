@@ -9,13 +9,17 @@ git clone git@github.com:MaximBrezhnev/NexusHubTestTask.git
 ```
 git clone https://github.com/MaximBrezhnev/NexusHubTestTask.git
 ```
+2. Перейти в основную директорию проекта:
+```
+cd NexusHubTestTask
+```
 
-2. Создать и активировать виртуальное окружение virutalenv (приведен пример для Linux/MacOS):
+3. Создать и активировать виртуальное окружение virutalenv (приведен пример для Linux/MacOS):
 ```
 python3 -m venv .venv
 source .venv/bin/activate
 ```
-3. Установить зависимости из файла `requirements.txt` командой 
+4. Установить зависимости из файла `requirements.txt` командой 
 ```
 pip install -r requirements.txt
 ```
@@ -28,7 +32,7 @@ pip install -r requirements.txt
 1. По аналогии с `task1/.env.example` создайте файл `task1/.env`, добавив туда свой ключ от API Groq (https://console.groq.com/keys)
 2. Запустите задачу, находясь в основной директории проекта:
 ```
-uvicorn task1.main:app --reload,
+uvicorn task1.main:app --reload
 ```
 
 Задача 2:
